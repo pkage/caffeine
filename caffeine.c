@@ -279,6 +279,7 @@ int main(int argc, char** argv) {
         }
     } else if (strcmp(argv[1], "version") == 0 || strcmp(argv[1], "-v") == 0) {
         printf("caffeine version %s, built %s %s\n", CAFFEINE_VERSION, __TIME__, __DATE__);
+        printf("(c) 2019 Patrick Kage (https://kagelabs.org)\n");
     } else {
         printf("Unknown command \"%s\".\n", argv[1]);
     }
