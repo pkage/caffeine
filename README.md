@@ -1,6 +1,6 @@
 # Caffeine daemon
 
-This is a really simple [caffeine](https://en.wikipedia.org/Caffeine) daemon for your linux system.
+This is a really simple [caffeine](https://en.wikipedia.org/wiki/Caffeine) daemon for your linux system.
 
 This works entirely without requiring root access and bypasses any imposed system management by emulating a mouse wiggle every few minutes.
 
