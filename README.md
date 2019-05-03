@@ -9,10 +9,10 @@ This works entirely without requiring root access and bypasses any imposed syste
 Build the daemon & controller:
 
 ```
-$ make
+$ make install
 ```
 
-This produces a `caffeine` artifact in the directory. You can then copy this onto your `$PATH`.
+This produces a `caffeine` artifact in the directory, and creates a folder in your `~/.config/` directory. You can then copy this onto your `$PATH`.
 
 N.B. this requires `xdotool` at the moment.
 

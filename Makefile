@@ -9,4 +9,5 @@ clean:
 build: clean
 	${CC} caffeine.c -o caffeine -DCAFFEINE_VERSION=\"${VERSION}\"
 
-
+install: build
+	mkdir -p ~/.config/caffiene
