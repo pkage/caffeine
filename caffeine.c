@@ -215,7 +215,7 @@ bool status_signal(int sig) {
 
     // check if it's running
     if (dpid == -1) {
-        printf("Daemon is not running!");
+        printf("Daemon is not running!\n");
         return false;
     }
 
